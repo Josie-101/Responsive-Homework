@@ -100,14 +100,8 @@ p {
   text-decoration: underline;
 }
 
-.yoga-pic {
-  width: 350px;
-}
-
-.weather-pic {
-  width: 350px;
-}
-
+.yoga-pic,
+.weather-pic,
 .yogurt-pic {
   width: 350px;
 }
@@ -128,6 +122,42 @@ p {
 
 .mb-3 {
   text-align: left;
+}
+
+@media (max-width: 576px) {
+  .mb-3 {
+    color: black;
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .app-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-sm-4 {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-details {
+    margin-top: 20px;
+  }
 }
 
 .app-pics {
